@@ -2,7 +2,7 @@
 #
 # Bulk register domains with Route53
 #
-# Requires boto3 to be intalled
+# Requires boto3 to be installed
 # 
 import boto3
 
