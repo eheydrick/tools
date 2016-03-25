@@ -2,6 +2,8 @@
 #
 # Bulk register domains with Route53
 #
+# Requires boto3 to be intalled
+# 
 import boto3
 
 client = boto3.client('route53domains', region_name='us-east-1')
